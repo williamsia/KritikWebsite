@@ -1,4 +1,4 @@
-    'use strict';
+'use strict';
 
 angular.module('kritikWebsiteApp')
   .factory('User', function ($resource) {
