@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/" class="navbar-brand">kritik-website</a>
+      <a href="/" class="navbar-brand">Kritik-Website</a>
     </div>
     <div collapse="isCollapsed" class="navbar-collapse collapse" id="navbar-main">
       <ul class="nav navbar-nav">
@@ -15,7 +15,7 @@
             <a ng-href="{{item.link}}">{{item.title}}</a>
         </li>
         <li ng-show="isAdmin()" ng-class="{active: isActive('/admin')}"><a href="/admin">Admin</a></li>
-        <li ng-show="isLoggedIn()" ng-class="{active: isActive('/kritik')}"><a href="/kritik">Kritik Website</a></li>
+        <li ng-class="{active: isActive('/kritik')}"><a href="/kritik">Kritik</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
