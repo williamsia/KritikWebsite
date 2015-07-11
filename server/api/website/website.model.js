@@ -5,7 +5,8 @@ var mongoose = require('mongoose'),
 
 var WebsiteSchema = new Schema({
   url: String,
-  submittedBy: String
+  submittedBy: String,
+  imageSrc: String
 });
 
 module.exports = mongoose.model('Website', WebsiteSchema);

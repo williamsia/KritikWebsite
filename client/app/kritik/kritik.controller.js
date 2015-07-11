@@ -10,6 +10,8 @@ angular.module('kritikWebsiteApp')
 
         if(form.$valid) {
 
+            $scope.website.imageSrc = "assets/images/website-placeholder.png";
+
             $http.post('/api/websites', $scope.website)
                 .success(function(){
                     $scope.successfullSubmission = true;

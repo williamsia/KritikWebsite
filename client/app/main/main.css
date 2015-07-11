@@ -28,3 +28,35 @@
     margin-top: 70px;
     border-top: 1px solid #E5E5E5;
 }
+
+.website-display > .row {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lists-item__image:before {
+    content: '';
+    display: block;
+    padding-top: 60%
+}
+
+.lists-item__image {
+    display: block;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: cover
+}
+
+.lists-item__headline {
+  margin: 12px 14px 7px;
+  line-height: 1.3;
+  font-family: 'Roboto Slab',serif;
+  font-weight: normal;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
